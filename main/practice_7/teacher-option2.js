@@ -3,9 +3,7 @@ import Person from './person.js'
 class Teacher extends Person {
   constructor(name, age, klass) {
     super(name, age);
-    if (klass) {
-      this.klass = klass;
-    }
+    this.klass = klass;
   }
 
   introduce() {
