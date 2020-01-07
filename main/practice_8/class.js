@@ -8,7 +8,7 @@ class Class {
   }
 
   assignLeader(student) {
-    if(student.klass.number === this.number) {
+    if (student.klass.number === this.number) {
       this.leader = student;
     }
   }
