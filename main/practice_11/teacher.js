@@ -17,7 +17,7 @@ class Teacher extends Person {
   }
 
   isTeaching(student) {
-    return this.klasses.includes(student.klass) ? true : false;
+    return this.klasses.includes(student.klass);
   }
 
   callWithLeader(student) {

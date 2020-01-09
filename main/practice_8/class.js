@@ -8,7 +8,7 @@ class Class {
   }
 
   isIn(student) {
-    return student.klass.number === this.number ? true : false;
+    return student.klass.number === this.number;
   }
 
   assignLeader(student) {
