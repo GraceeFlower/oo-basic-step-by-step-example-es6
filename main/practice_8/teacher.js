@@ -7,7 +7,7 @@ class Teacher extends Person {
   }
 
   introduce() {
-    return `${super.introduce()} I am a Teacher. I teach ${this.klass ? 'Class ' + this.klass.number : 'No Class'}.`
+    return `${super.introduce()} I am a Teacher. I teach ${this.klass ? `Class ${this.klass.number}` : 'No Class'}.`
   }
 }
 
