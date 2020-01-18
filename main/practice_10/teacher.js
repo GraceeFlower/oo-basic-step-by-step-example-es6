@@ -12,7 +12,7 @@ class Teacher extends Person {
       klassNum = this.klasses.map((klass) => klass.number).join(', ');
     }
     return `${super.introduce()} I am a Teacher. I teach `
-      + (this.klasses ? 'Class ' + klassNum : 'No Class')
+      + (this.klasses ? `Class ${klassNum}` : 'No Class')
       + '.';
   }
 }
